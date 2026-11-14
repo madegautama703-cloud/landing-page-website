@@ -17,8 +17,7 @@ const EASE_ENTER: [number, number, number, number] = [0.22, 0.61, 0.24, 1];
 const EASE_REVEAL: [number, number, number, number] = [0.25, 0.5, 0.5, 0.9];
 const EASE_DECEL: [number, number, number, number] = [0.215, 0.61, 0.355, 1];
 
-const SISSI_GOOGLE_URL =
-  "https://www.google.co.id/search?client=safari&hs=YpdB&channel=iphone_bm&sca_esv=3c68ee3254e36628&cs=1&output=search&kgmid=%2Fg%2F11zg4ct9g5&q=Sissi%20Heritage&shem=dlvs1%2Cepsd1%2Cesd2e%2Cltae%2Crimspwouoe%2Csdpie&shndl=30&source=sh%2Fx%2Floc%2Funi%2Fm1%2F1&kgs=095dba96212eaa79";
+const BRAND_MAPS_URL = "https://maps.google.com/?q=Bali,Indonesia";
 
 const galleryGridVariants: Variants = {
   hidden: { opacity: 0 },
@@ -46,11 +45,11 @@ const galleryItemVariants: Variants = {
 const galleryImages = [
   {
     src: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=85",
-    alt: "Artisanal latte art served on a dark wooden table at Sissi Heritage",
+    alt: "Artisanal latte art served on a dark wooden table at Your Brand",
   },
   {
     src: "https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=800&q=85",
-    alt: "Master barista crafting specialty espresso at Sissi Heritage Klungkung",
+    alt: "Master barista crafting specialty espresso at Your Brand",
   },
   {
     src: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=85",
@@ -62,19 +61,19 @@ const galleryImages = [
   },
   {
     src: "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=800&q=85",
-    alt: "Two signature iced specialty coffees in sunlit Sissi Heritage cafe",
+    alt: "Two signature iced specialty coffees in sunlit Your Brand cafe",
   },
   {
     src: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=800&q=85",
-    alt: "Warm rustic interior of Sissi Heritage Klungkung with hanging lanterns",
+    alt: "Warm rustic interior of Your Brand with hanging lanterns",
   },
   {
     src: "https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=800&q=85",
-    alt: "Rustic stone and timber coffee bar counter in Klungkung",
+    alt: "Rustic stone and timber coffee bar counter at Your Brand",
   },
   {
     src: "https://images.unsplash.com/photo-1453614512568-c4024d13c247?auto=format&fit=crop&w=800&q=85",
-    alt: "Exterior entrance of Sissi Heritage in Semarapura, Klungkung",
+    alt: "Exterior entrance of Your Brand Coffee House",
   },
 ];
 
@@ -102,8 +101,8 @@ export default function HomePage() {
         {/* Viewport-locked background layer clipped strictly to the Hero section bounds */}
         <div className="fixed inset-0 w-full h-full pointer-events-none select-none transform-gpu will-change-transform">
           <img
-            src="/sissi-hero.jpg"
-            alt="Sissi Heritage Klungkung facade and warm ambient lights"
+            src="/brand-banner.jpg?v=2"
+            alt="Your Brand espresso bar counter and fresh pastry display"
             className="w-full h-full object-cover object-center rounded-none"
           />
           <div className="absolute inset-0 bg-black/25" />
@@ -121,7 +120,7 @@ export default function HomePage() {
               }}
               className="text-[30px] md:text-[35px] font-normal text-white leading-[1.2] tracking-[0.01em]"
             >
-              Klungkung
+              Your Brand
             </motion.h1>
           </div>
         </div>
@@ -134,11 +133,10 @@ export default function HomePage() {
           className="max-w-[1024px] mx-auto px-[25px]"
         >
           <p className="text-[20px] md:text-[23px] leading-[1.6] font-light text-[#2B2B2B] tracking-[0.01em]">
-            Nestled in the historic cultural heart of Semarapura, Klungkung,
-            Sissi Heritage redefines Bali&rsquo;s coffee culture with refined
-            specialty roasts and understated heritage elegance. Thoughtfully
-            designed interiors flow effortlessly with timeless architecture,
-            offering a serene yet sophisticated ambiance.
+            Nestled in the vibrant heart of your city, Your Brand redefines
+            modern coffee culture with refined specialty roasts and understated
+            elegance. Thoughtfully designed interiors flow effortlessly with
+            timeless architecture, offering a serene yet sophisticated ambiance.
           </p>
         </motion.div>
       </section>
@@ -150,8 +148,8 @@ export default function HomePage() {
             {/* Left Portrait Image */}
             <motion.div {...fadeInUpProps(0)} className="md:col-span-6">
               <img
-                src="/sissi-cup-feature.jpg"
-                alt="Sissi Heritage specialty iced coffee cup under tropical sunlight"
+                src="/brand-feature.jpg"
+                alt="Your Brand hand-poured filter coffee and freshly baked croissants"
                 className="w-full aspect-[4/5] object-cover object-center rounded-none"
               />
             </motion.div>
@@ -162,21 +160,20 @@ export default function HomePage() {
               className="md:col-span-6 pt-[5px] md:pt-[10px]"
             >
               <h2 className="text-[22px] md:text-[25px] leading-[1.35] tracking-[0.04em] uppercase font-normal text-[#1A1A1A] mb-[20px]">
-                SISSI HERITAGE
+                YOUR BRAND
                 <br />
-                KLUNGKUNG, BALI
+                CAFFÈ &amp; ROASTERY
               </h2>
 
               <p className="text-[16px] md:text-[17px] font-normal text-[#1A1A1A] mb-[20px]">
-                Artisanal Coffee &amp; Heritage Comfort in the Heart of Semarapura
+                Artisanal Coffee &amp; Bakery Comfort for Every Daily Ritual
               </p>
 
               <p className="text-[15px] md:text-[16px] leading-[1.7] font-light text-[#494c4f] mb-[30px] max-w-[440px]">
-                Located on Jl. Gajah Mada No.18 in Semarapura Tengah, Klungkung,
-                Sissi Heritage offers an elevated specialty coffee, roastery, and
-                artisanal kitchen experience. Warm heritage interiors meet
-                relaxed island hospitality, creating the perfect setting for
-                morning rituals, afternoon gatherings, and evening conversations.
+                At Your Brand, we craft an elevated specialty coffee, roastery,
+                and artisanal viennoiserie experience. Warm interiors meet
+                thoughtful hospitality, creating the perfect setting for morning
+                rituals, afternoon gatherings, and meaningful conversations.
               </p>
 
               <Link
@@ -193,8 +190,8 @@ export default function HomePage() {
       {/* 4. FULL-WIDTH OPENING HOURS BANNER (5px grid: h-[380px] md:h-[450px], mb-[10px], mb-[30px], px-[35px] py-[10px]) */}
       <section className="relative w-full h-[380px] md:h-[450px] overflow-hidden">
         <img
-          src="/sissi-lamp-banner.jpg"
-          alt="Warm woven pendant lamp and tropical plants at Sissi Heritage"
+          src="/brand-hero.jpg"
+          alt="Your Brand specialty coffee served in warm afternoon sunlight"
           className="w-full h-full object-cover object-center rounded-none"
         />
         <div className="absolute inset-0 bg-black/40" />
@@ -249,7 +246,7 @@ export default function HomePage() {
       <section className="relative w-full h-[210px] md:h-[240px] overflow-hidden">
         <img
           src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=2000&q=85"
-          alt="Experience Sissi Heritage in Klungkung"
+          alt="Experience Artisanal Coffee at Your Brand"
           className="w-full h-full object-cover rounded-none"
         />
         <div className="absolute inset-0 bg-black/50" />
@@ -259,7 +256,7 @@ export default function HomePage() {
           className="absolute inset-0 z-10 flex flex-col items-center justify-center text-center px-[25px] text-white"
         >
           <h2 className="text-[21px] md:text-[25px] font-normal tracking-[0.02em] mb-[15px]">
-            Experience Sissi Heritage in Klungkung
+            Experience Artisanal Coffee at Your Brand
           </h2>
           <Link
             href="/contact-us"
@@ -274,25 +271,25 @@ export default function HomePage() {
       <section className="w-full bg-[#FFFFFF] pt-[80px] pb-[50px] md:pt-[95px] md:pb-[60px]">
         <div className="max-w-[1024px] mx-auto px-[25px]">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-[40px] md:gap-[50px] items-start">
-            {/* Left: Google Map Embed for Sissi Heritage Klungkung (5px grid height: h-[350px] md:h-[370px]) */}
+            {/* Left: Google Map Embed for Your Brand Location (5px grid height: h-[350px] md:h-[370px]) */}
             <motion.div
               {...fadeInUpProps(0)}
               className="relative w-full h-[350px] md:h-[370px] border border-[#D5D5D5]"
             >
               <iframe
-                title="Sissi Heritage Klungkung Location"
-                src="https://maps.google.com/maps?q=Sissi+Heritage+Jl.+Gajah+Mada+No.18+Semarapura+Klungkung+Bali&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                title="Your Brand Location"
+                src="https://maps.google.com/maps?q=Bali,Indonesia&t=&z=13&ie=UTF8&iwloc=&output=embed"
                 className="w-full h-full border-0 rounded-none"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               />
               <a
-                href={SISSI_GOOGLE_URL}
+                href={BRAND_MAPS_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="absolute top-[10px] left-[10px] z-10 bg-[#FFFFFF] border border-[#D5D5D5] px-[10px] py-[5px] text-[11px] font-normal text-[#1A1A1A] hover:bg-[#1A1A1A] hover:text-white transition-colors duration-[200ms]"
               >
-                Open Sissi Heritage in Google &#8599;
+                Open Your Brand in Maps &#8599;
               </a>
             </motion.div>
 

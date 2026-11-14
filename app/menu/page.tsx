@@ -126,9 +126,9 @@ function SheetFooterFlourish() {
         <circle cx="85" cy="9" r="2.2" fill="#1A1A1A" />
       </svg>
       <div className="flex items-center justify-center gap-[15px] mt-[5px] text-[8px] tracking-[0.08em] text-[#494c4f] uppercase">
-        <span>Sissi Heritage Klungkung</span>
+        <span>Your Brand Flagship</span>
         <span>&bull;</span>
-        <span>@sissiheritage</span>
+        <span>@yourbrand</span>
         <span>&bull;</span>
         <span>All prices in IDR thousands, subject to service &amp; tax</span>
       </div>
@@ -168,7 +168,7 @@ function MenuQrCodeSvg() {
       viewBox="0 0 21 21"
       shapeRendering="crispEdges"
       className="mx-auto w-[110px] h-[110px]"
-      aria-label="QR Code for Sissi Heritage Full Menu"
+      aria-label="QR Code for Your Brand Full Menu"
     >
       {matrix.map((row, rIdx) =>
         row.map((cell, cIdx) =>
@@ -259,13 +259,13 @@ function LeftCalloutNote({
 }
 
 /* ============================================================================
- * MENU DATA (Sissi Heritage Klungkung - 6 Classic Sheets)
+ * MENU DATA (Your Brand - 6 Classic Sheets)
  * ========================================================================== */
 
 const SHEET_1_ESPRESSO: MenuItem[] = [
   {
     name: "Espresso Singolo",
-    desc: "Single shot of our signature Sissi Heritage house blend with dark cocoa, roasted hazelnut & sweet crema",
+    desc: "Single shot of our signature Your Brand house blend with dark cocoa, roasted hazelnut & sweet crema",
     price: "35",
   },
   {
@@ -354,7 +354,7 @@ const SHEET_1_FILTER: MenuItem[] = [
 
 const SHEET_2_SIGNATURE_COFFEE: MenuItem[] = [
   {
-    name: "Sissi Heritage Espresso Tonic",
+    name: "Your Brand Espresso Tonic",
     desc: "Double ristretto floated over botanical quinine tonic, dehydrated blood orange & rosemary sprig",
     price: "65",
     tag: "V",
@@ -371,7 +371,7 @@ const SHEET_2_SIGNATURE_COFFEE: MenuItem[] = [
     tag: "N",
   },
   {
-    name: "Semarapura Spiced Pandan Latte",
+    name: "Signature Spiced Pandan Latte",
     desc: "Aromatic Balinese pandan leaf reduction infused with cold-pressed espresso and creamy milk",
     price: "65",
   },
@@ -511,7 +511,7 @@ const SHEET_3_PLATES: MenuItem[] = [
 
 const SHEET_3_DOLCI: MenuItem[] = [
   {
-    name: "Tiramisù Sissi Heritage all'Espresso",
+    name: "Tiramisù Your Brand all'Espresso",
     desc: "Savoiardi biscuits soaked in our signature double espresso, layered with organic mascarpone crema",
     price: "85",
     tag: "V",
@@ -543,13 +543,13 @@ const SHEET_3_DOLCI: MenuItem[] = [
 
 const SHEET_4_ROASTERY_BEANS: MenuItem[] = [
   {
-    name: "Miscela della Casa 'Klungkung' (250g)",
-    desc: "Signature Sissi Heritage blend of 70% Bali & 30% Flores Arabica — dark chocolate, roasted almond, molasses",
+    name: "Miscela della Casa 'Signature' (250g)",
+    desc: "Signature Your Brand blend of 70% Bali & 30% Flores Arabica — dark chocolate, roasted almond, molasses",
     price: "145",
     tag: "V",
   },
   {
-    name: "Miscela 'Semarapura Reserve' Dark Roast (250g)",
+    name: "Miscela 'Your Brand Reserve' Dark Roast (250g)",
     desc: "Traditional full-bodied roast profile — bold body, smoky cedar, bittersweet cocoa crema",
     price: "150",
     tag: "V",
@@ -609,7 +609,7 @@ const SHEET_4_ROASTERY_BEANS: MenuItem[] = [
     tag: "V",
   },
   {
-    name: "Sissi Heritage Drip Bag Gift Box (10 Sachets)",
+    name: "Your Brand Drip Bag Gift Box (10 Sachets)",
     desc: "Individually nitrogen-flushed single-serve pour-over filters featuring our favourite Nusantara origins",
     price: "160",
     tag: "V",
@@ -820,11 +820,11 @@ export default function MenuPage() {
         >
           <BrandCrestFlourish color="#1A1A1A" width={180} />
           <img
-            src="/sissi-logo-dark.png"
-            alt="Sissi Heritage"
-            className="h-[70px] md:h-[85px] w-auto object-contain my-[15px] rounded-none"
+            src="/your-brand-dark.png"
+            alt="Your Brand"
+            className="h-[45px] md:h-[55px] w-auto object-contain my-[15px] rounded-none"
           />
-          <h1 className="sr-only">Sissi Heritage Menu</h1>
+          <h1 className="sr-only">Your Brand Menu</h1>
           <BrandCrestFlourish color="#1A1A1A" width={180} />
         </motion.div>
       </section>
@@ -851,7 +851,7 @@ export default function MenuPage() {
         >
           <img
             src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=1200&q=85"
-            alt="Artisans sharing espresso at Sissi Heritage Klungkung"
+            alt="Artisans sharing espresso at Your Brand"
             className="w-full h-full object-cover grayscale contrast-125 rounded-none"
           />
         </motion.div>
@@ -870,7 +870,7 @@ export default function MenuPage() {
           <div className="mb-[30px]">
             <MenuCategoryHeader
               title="ESPRESSO BAR"
-              subtitle="Signature Sissi Heritage Extraction"
+              subtitle="Signature Your Brand Extraction"
             />
             <div className="flex flex-col">
               {SHEET_1_ESPRESSO.map((item) => (
@@ -1080,7 +1080,7 @@ export default function MenuPage() {
                 className="w-full h-auto"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                aria-label="Vintage architectural sketch of Sissi Heritage Klungkung"
+                aria-label="Vintage architectural sketch of Your Brand Flagship"
               >
                 <rect
                   x="2"
@@ -1137,7 +1137,7 @@ export default function MenuPage() {
                   letterSpacing="1.5"
                   fontFamily="Cormorant Garamond, serif"
                 >
-                  SISSI HERITAGE &bull; KLUNGKUNG, BALI
+                  YOUR BRAND &bull; BALI, INDONESIA
                 </text>
               </svg>
             </div>
@@ -1155,7 +1155,7 @@ export default function MenuPage() {
           <div className="mb-[25px]">
             <MenuCategoryHeader
               title="ROASTERY WHOLE BEANS & COLD BREW"
-              subtitle="Small-Batch Roasted in Klungkung — Whole Bean or Freshly Ground"
+              subtitle="Small-Batch Roasted — Whole Bean or Freshly Ground"
             />
             <div className="flex flex-col">
               {SHEET_4_ROASTERY_BEANS.map((item) => (
@@ -1529,15 +1529,15 @@ export default function MenuPage() {
             {/* Left Burgundy Arch */}
             <div className="bg-[#581114] rounded-t-full aspect-[1/2.15] w-full" />
 
-            {/* Right Burgundy Arch with Sissi Heritage Logo, B&W Glass & BEVERAGE MENU */}
+            {/* Right Burgundy Arch with Your Brand Logo, B&W Glass & BEVERAGE MENU */}
             <div className="bg-[#581114] rounded-t-full aspect-[1/2.15] w-full flex flex-col items-center justify-between pt-[65px] sm:pt-[85px] pb-[25px] sm:pb-[35px] px-[15px] text-center">
               {/* Top Ornamental White Logo */}
               <div className="flex flex-col items-center">
                 <BrandCrestFlourish color="#FFFFFF" width={110} />
                 <img
-                  src="/sissi-logo-white.png"
-                  alt="Sissi Heritage"
-                  className="h-[40px] sm:h-[50px] w-auto object-contain my-[10px] rounded-none"
+                  src="/your-brand-white.png"
+                  alt="Your Brand"
+                  className="h-[35px] sm:h-[45px] w-auto object-contain my-[10px] rounded-none"
                 />
                 <BrandCrestFlourish color="#FFFFFF" width={110} />
               </div>

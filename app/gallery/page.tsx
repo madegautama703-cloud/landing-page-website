@@ -18,13 +18,13 @@ interface GalleryPhoto {
 /**
  * 30 Vertical Portrait Gallery Photos (3 Columns x 10 Rows)
  * Replicating 100% the composition, visual rhythm, and sequence of Gallery reference
- * for Sissi Heritage in Klungkung, Bali.
+ * for Your Brand.
  */
 const GALLERY_PHOTOS: GalleryPhoto[] = [
   // Row 1
   {
     src: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=800&q=85",
-    alt: "Warm candlelit espresso bar and rustic stone archways at Sissi Heritage Klungkung",
+    alt: "Warm candlelit espresso bar and rustic stone archways at Your Brand",
   },
   {
     src: "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=85",
@@ -32,7 +32,7 @@ const GALLERY_PHOTOS: GalleryPhoto[] = [
   },
   {
     src: "https://images.unsplash.com/photo-1453614512568-c4024d13c247?auto=format&fit=crop&w=800&q=85",
-    alt: "Classic entrance doorway at Sissi Heritage Klungkung with warm glowing interior",
+    alt: "Classic entrance doorway at Your Brand with warm glowing interior",
   },
 
   // Row 2
@@ -56,7 +56,7 @@ const GALLERY_PHOTOS: GalleryPhoto[] = [
   },
   {
     src: "https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=800&q=85",
-    alt: "Limestone wall sconce and vintage framed sketch inside Sissi Heritage",
+    alt: "Limestone wall sconce and vintage framed sketch inside Your Brand",
   },
   {
     src: "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=800&q=85",
@@ -74,7 +74,7 @@ const GALLERY_PHOTOS: GalleryPhoto[] = [
   },
   {
     src: "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&w=800&q=85",
-    alt: "Sunlit verandah terrace seating at Sissi Heritage Klungkung",
+    alt: "Sunlit verandah terrace seating at Your Brand",
   },
 
   // Row 5
@@ -84,7 +84,7 @@ const GALLERY_PHOTOS: GalleryPhoto[] = [
   },
   {
     src: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=85",
-    alt: "Open-air courtyard seating with Sissi Heritage terrace tables under timber pergola",
+    alt: "Open-air courtyard seating with Your Brand terrace tables under timber pergola",
   },
   {
     src: "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=800&q=85",
@@ -98,7 +98,7 @@ const GALLERY_PHOTOS: GalleryPhoto[] = [
   },
   {
     src: "https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=800&q=85",
-    alt: "Vintage hanging sign and warm lantern outside Sissi Heritage Klungkung",
+    alt: "Vintage hanging sign and warm lantern outside Your Brand",
   },
   {
     src: "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?auto=format&fit=crop&w=800&q=85",
@@ -130,7 +130,7 @@ const GALLERY_PHOTOS: GalleryPhoto[] = [
   },
   {
     src: "https://images.unsplash.com/photo-1517686469429-8bdb88b9f907?auto=format&fit=crop&w=800&q=85",
-    alt: "Artisan baker tending the copper-domed sourdough oven at Sissi Heritage",
+    alt: "Artisan baker tending the copper-domed sourdough oven at Your Brand",
   },
 
   // Row 9
@@ -144,7 +144,7 @@ const GALLERY_PHOTOS: GalleryPhoto[] = [
   },
   {
     src: "https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=800&q=85",
-    alt: "Sunlit stone wall, linen curtains and vintage framed prints at Sissi Heritage Klungkung",
+    alt: "Sunlit stone wall, linen curtains and vintage framed prints at Your Brand",
   },
 
   // Row 10

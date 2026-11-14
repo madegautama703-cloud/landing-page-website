@@ -1,38 +1,36 @@
 import Link from "next/link";
 
-const SISSI_GOOGLE_URL =
-  "https://www.google.co.id/search?client=safari&hs=YpdB&channel=iphone_bm&sca_esv=3c68ee3254e36628&cs=1&output=search&kgmid=%2Fg%2F11zg4ct9g5&q=Sissi%20Heritage&shem=dlvs1%2Cepsd1%2Cesd2e%2Cltae%2Crimspwouoe%2Csdpie&shndl=30&source=sh%2Fx%2Floc%2Funi%2Fm1%2F1&kgs=095dba96212eaa79";
+const BRAND_MAPS_URL = "https://maps.google.com/?q=Bali,Indonesia";
 
 export default function Footer() {
   return (
     <footer className="w-full bg-[#FFFFFF] text-[#1A1A1A] py-[50px] md:py-[60px]">
       <div className="max-w-[1024px] mx-auto px-[25px] flex flex-col md:flex-row items-center justify-between gap-[25px]">
-        {/* Left: Sissi Heritage Logo (5px grid: h-[45px]) */}
+        {/* Left: Your Brand Logo (5px grid: h-[35px]) */}
         <Link
           href="/"
-          aria-label="Sissi Heritage Home"
+          aria-label="Your Brand Home"
           className="flex items-center hover:opacity-80 transition-opacity duration-[200ms] ease-out"
         >
           <img
-            src="/sissi-logo-dark.png"
-            alt="Sissi Heritage"
-            className="h-[45px] w-auto object-contain rounded-none"
+            src="/your-brand-dark.png"
+            alt="Your Brand"
+            className="h-[35px] w-auto object-contain rounded-none"
           />
         </Link>
 
         {/* Center: Copyright Notice */}
         <p className="text-[13px] md:text-[14px] font-light text-[#494c4f] tracking-[0.02em] text-center">
-          Copyright &copy; 2026 &ndash; Sissi Heritage. Klungkung, Bali All Rights
-          Reserved
+          Copyright &copy; 2026 &ndash; Your Brand. All Rights Reserved
         </p>
 
         {/* Right: Location & Social Icons (5px grid: gap-[10px], w-[30px] h-[30px], w-[15px] h-[15px]) */}
         <div className="flex items-center gap-[10px]">
           <a
-            href={SISSI_GOOGLE_URL}
+            href={BRAND_MAPS_URL}
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Sissi Heritage on Google"
+            aria-label="Your Brand Location"
             className="w-[30px] h-[30px] rounded-full bg-[#8C7A6B] text-white flex items-center justify-center hover:bg-[#1A1A1A] transition-colors duration-[200ms] ease-out"
           >
             {/* Map Pin / Location Icon */}

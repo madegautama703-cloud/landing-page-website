@@ -21,16 +21,16 @@ export default function Navbar() {
   return (
     <header className="absolute top-0 left-0 right-0 z-50 bg-transparent">
       <div className="max-w-[1024px] mx-auto px-[25px] py-[25px] md:py-[30px] flex items-center justify-between">
-        {/* Sissi Heritage Brand Mark on Left (5px grid: h-[45px] md:h-[50px]) */}
+        {/* Your Brand Logo on Left (5px grid: h-[35px] md:h-[40px]) */}
         <Link
           href="/"
-          aria-label="Sissi Heritage Home"
+          aria-label="Your Brand Home"
           className="flex items-center group focus:outline-none transition-opacity duration-[200ms] ease-out hover:opacity-80"
         >
           <img
-            src={isLightHeader ? "/sissi-logo-dark.png" : "/sissi-logo-white.png"}
-            alt="Sissi Heritage"
-            className="h-[45px] md:h-[50px] w-auto object-contain rounded-none"
+            src={isLightHeader ? "/your-brand-dark.png" : "/your-brand-white.png"}
+            alt="Your Brand"
+            className="h-[35px] md:h-[40px] w-auto object-contain rounded-none"
           />
         </Link>
 

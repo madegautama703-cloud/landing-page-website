@@ -37,9 +37,9 @@ const cormorant = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Sissi Heritage Klungkung | Specialty Coffee & Roastery in Bali",
+  title: "Your Brand | Specialty Coffee & Artisanal Roastery",
   description:
-    "Located in the historic heart of Semarapura, Klungkung, Bali, Sissi Heritage blends specialty coffee culture with timeless heritage elegance.",
+    "Your Brand brings refined specialty coffee, artisanal roasts, and warm hospitality together in a timeless café space.",
 };
 
 export default function RootLayout({
